@@ -1,0 +1,68 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    font-style: bold;
+    text-align: justify;
+    font-size: 16px; 
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color:green;
+}
+
+h4 {
+    color: orange;
+}
+
+img.align-center {
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+    height: 300px;
+}
+
+img.left {
+    display: block;
+    align-content: left;
+    width: 350px;
+    height: 250px;
+    padding: 10px 20px 10px 10px; 
+}
+
+.tbl {
+    padding: 5px;
+}
+
+th {
+     padding: 5px 10px 0px 10px;
+     color: black;
+ }
+
+ table, th {
+     border: .2px dotted orange;
+     
+     
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+
+ th:nth-child(odd) {
+    background-color: #e4b92e;
